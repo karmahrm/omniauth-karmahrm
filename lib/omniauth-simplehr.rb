@@ -1,2 +1,1 @@
-require File.join('omniauth', 'simplehr') 
-
+require 'omniauth/strategies/simplehr'

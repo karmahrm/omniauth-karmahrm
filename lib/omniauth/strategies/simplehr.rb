@@ -4,10 +4,10 @@ module OmniAuth
   module Strategies
     class Simplehr < OmniAuth::Strategies::OAuth2
       # change the class name and the :name option to match your application name
-      option :name, :simple_hr
+      option :name, :simplehr
 
       option :client_options, {
-        :site => "simplehr.herokuapp.com",
+        :site => "http://simplehr.herokuapp.com",
         :authorize_url => "/oauth/authorize"
       }
 
