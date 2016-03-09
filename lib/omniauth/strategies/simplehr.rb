@@ -2,7 +2,7 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class SimpleHr < OmniAuth::Strategies::OAuth2
+    class Simplehr < OmniAuth::Strategies::OAuth2
       # change the class name and the :name option to match your application name
       option :name, :simple_hr
 

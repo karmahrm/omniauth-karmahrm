@@ -1,4 +1,5 @@
 require "omniauth/simplehr/version"
+require "omniauth/strategies/simplehr"
 
 module Omniauth
   module Simplehr
